@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:block;
+    background-color: aliceblue;
+}
+.header-lable{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 3rem;
+    color: steelblue;
+}
+.container{
+    display: block;
+    align-items: center;
+    border: 1px solid;
+    width: 80px;
+    height: 70vh;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.footer-lable{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+
+}
